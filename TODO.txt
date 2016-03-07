@@ -23,5 +23,9 @@ output
 usage--
 
     runnableFile    command     fileName
-        javac printLabel    -fl     record.txt
-        javac printLabel    -lf     record.txt
+
+        java printLabel    -fl     record.txt
+           Mr  John  Smith
+
+        java printLabel    -lf     record.txt
+           Mr  Smith John
