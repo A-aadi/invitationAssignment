@@ -1,0 +1,27 @@
+Create a library that prints labels(representation of records) on invitation  card.
+
+given records in a file --
+    record format
+        firstName,lastName,gender,age,city,state,country
+
+output
+
+    Output choices -
+
+        a. prefix First Last
+        b. prefix Last First
+
+    prefix assumption
+
+        Gender       Prefix
+
+        Male         Mr
+        Female       Ms
+
+---------------------------------------------------------------------------------------------------------------------
+
+usage--
+
+    runnableFile    command     fileName
+        javac printLabel    -fl     record.txt
+        javac printLabel    -lf     record.txt
