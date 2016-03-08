@@ -21,11 +21,20 @@ output
 ---------------------------------------------------------------------------------------------------------------------
 
 usage--
-
-    runnableFile    command     fileName
+    only for options , no filter :
+        runnableFile    command     fileName
 
         java printLabel    -fl     record.txt
            Mr  John  Smith
 
         java printLabel    -lf     record.txt
            Mr  Smith John
+
+    options and filter both :
+        runnableFile    -command     fileName    __country     _age
+
+        java printLabel    -fl     record.txt   --India     _20
+        Mr  John  Smith, India, 20
+
+        java printLabel    -lf     record.txt   --India     _20
+        Mr  Smith, John, India, 20

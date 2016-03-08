@@ -1,5 +1,5 @@
 public class Invitation {
-    public String getCardLableWithCountry(Guest guest) {
+    public String getCardLableFirstNameFirst(Guest guest) {
         return String.format("%s,%s", guest.getFirstNameFirst(), guest.getCountry());
     }
 

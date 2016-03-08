@@ -21,4 +21,5 @@ public class Guest {
     public String getCountry() {
         return address.getCountry();
     }
+
 }

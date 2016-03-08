@@ -12,6 +12,6 @@ public class NameTest {
     @Test
     public void test_lastFirstFormat_gives_last_name_first_and_first_name_last() throws Exception {
         Name n = new Name("Ram","Laal");
-        assertEquals("Laal Ram", n.firstLastFormat());
+        assertEquals("Laal,Ram", n.lastFirstFormat());
     }
 }
