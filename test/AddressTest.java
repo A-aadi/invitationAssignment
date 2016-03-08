@@ -8,8 +8,8 @@ import static org.junit.Assert.*;
 public class AddressTest {
     @Test
     public void test_get_full_address_should_give_full_address_of_any_guest() throws Exception {
-        Address new_address = new Address("Banglore", "Karnataka", "India");
-        assertEquals("City - Banglore, State - Karnataka, Country - India", new_address.getFullAddress());
+        Address new_address = new Address("Bangalore", "Karnataka", "India");
+        assertEquals("City - Bangalore, State - Karnataka, Country - India", new_address.getFullAddress());
     };
 
     @Test
